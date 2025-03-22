@@ -47,25 +47,36 @@ const getExercises = () => {
   }
 };
 
-// Function to format exercise for LaMetric Time
+// Updated function to format exercise for LaMetric Time
+// const formatForLaMetric = (exercise) => {
+//   return {
+//     frames: [
+//       {
+//         text: "Time to move!",
+//         icon: 1273 // Exercise/fitness icon
+//       },
+//       {
+//         text: exercise.name,
+//         icon: 2664 // Person icon
+//       },
+//       {
+//         text: exercise.description,
+//         icon: 620 // Info icon
+//       }
+//     ]
+//   };
+// };
+
 const formatForLaMetric = (exercise) => {
-  return {
-    frames: [
-      {
-        text: "Time to move!",
-        icon: 1273 // Exercise/fitness icon
-      },
-      {
-        text: exercise.name,
-        icon: 2664 // Person icon
-      },
-      {
-        text: exercise.description,
-        icon: 620 // Info icon
-      }
-    ]
+    return {
+      frames: [
+        {
+          text: "Exercise: " + exercise.name,
+          icon: 1273
+        }
+      ]
+    };
   };
-};
 
 // Function to format exercise for TRMNL
 const formatForTRMNL = (exercise) => {
