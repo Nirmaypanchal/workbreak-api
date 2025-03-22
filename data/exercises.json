@@ -1,0 +1,293 @@
+{
+    "exercises": [
+      {
+        "id": "push-ups-standard",
+        "name": "Standard Push-Ups",
+        "description": "Place hands shoulder-width apart and lower your body until your chest nearly touches the floor.",
+        "difficulty": "beginner",
+        "durationSeconds": 60,
+        "muscleGroups": ["chest", "triceps", "shoulders", "core"],
+        "equipment": [],
+        "instructions": [
+          "Start in a high plank position with hands shoulder-width apart",
+          "Keep your body in a straight line from head to heels",
+          "Lower your body until your chest nearly touches the floor",
+          "Push back up to the starting position",
+          "Repeat for 45-60 seconds"
+        ],
+        "targetReps": {
+          "beginner": "8-10",
+          "intermediate": "12-15",
+          "advanced": "20+"
+        }
+      },
+      {
+        "id": "squats-bodyweight",
+        "name": "Bodyweight Squats",
+        "description": "Lower your body by bending your knees as if sitting in a chair, then return to standing.",
+        "difficulty": "beginner",
+        "durationSeconds": 60,
+        "muscleGroups": ["quads", "hamstrings", "glutes", "core"],
+        "equipment": [],
+        "instructions": [
+          "Stand with feet shoulder-width apart",
+          "Keep your chest up and back straight",
+          "Lower your body by bending your knees and pushing your hips back",
+          "Go as low as comfortable, ideally until thighs are parallel to the floor",
+          "Push through your heels to return to standing",
+          "Repeat for 45-60 seconds"
+        ],
+        "targetReps": {
+          "beginner": "10-12",
+          "intermediate": "15-20",
+          "advanced": "25+"
+        }
+      },
+      {
+        "id": "plank-standard",
+        "name": "Standard Plank",
+        "description": "Hold a push-up position with your weight on your forearms.",
+        "difficulty": "beginner",
+        "durationSeconds": 45,
+        "muscleGroups": ["core", "shoulders", "back"],
+        "equipment": [],
+        "instructions": [
+          "Start on your forearms and toes",
+          "Keep your body in a straight line from head to heels",
+          "Engage your core and don't let your hips sag",
+          "Hold the position for 30-60 seconds",
+          "Breathe normally throughout"
+        ],
+        "targetDuration": {
+          "beginner": "30 seconds",
+          "intermediate": "45-60 seconds",
+          "advanced": "90+ seconds"
+        }
+      },
+      {
+        "id": "jumping-jacks",
+        "name": "Jumping Jacks",
+        "description": "Jump while spreading your legs and bringing your arms above your head.",
+        "difficulty": "beginner",
+        "durationSeconds": 60,
+        "muscleGroups": ["full_body", "cardio"],
+        "equipment": [],
+        "instructions": [
+          "Start standing with feet together and arms at your sides",
+          "Jump up, spreading your feet beyond shoulder width",
+          "Simultaneously raise your arms above your head",
+          "Jump again, returning to the starting position",
+          "Repeat at a brisk pace for 45-60 seconds"
+        ],
+        "targetReps": {
+          "beginner": "20-30",
+          "intermediate": "40-50",
+          "advanced": "60+"
+        }
+      },
+      {
+        "id": "lunges-forward",
+        "name": "Forward Lunges",
+        "description": "Step forward and lower your body until both knees are bent at 90 degrees.",
+        "difficulty": "beginner",
+        "durationSeconds": 60,
+        "muscleGroups": ["quads", "hamstrings", "glutes", "core"],
+        "equipment": [],
+        "instructions": [
+          "Stand with feet hip-width apart",
+          "Take a step forward with one leg",
+          "Lower your body until both knees are bent at 90 degrees",
+          "Push through your front heel to return to the starting position",
+          "Repeat with the other leg",
+          "Continue alternating for 45-60 seconds"
+        ],
+        "targetReps": {
+          "beginner": "6-8 per leg",
+          "intermediate": "10-12 per leg",
+          "advanced": "15+ per leg"
+        }
+      },
+      {
+        "id": "mountain-climbers",
+        "name": "Mountain Climbers",
+        "description": "From a push-up position, alternate bringing your knees toward your chest.",
+        "difficulty": "intermediate",
+        "durationSeconds": 45,
+        "muscleGroups": ["core", "shoulders", "chest", "cardio"],
+        "equipment": [],
+        "instructions": [
+          "Start in a push-up position with arms straight",
+          "Bring one knee toward your chest",
+          "Quickly switch legs, bringing the other knee forward",
+          "Continue alternating at a brisk pace",
+          "Keep your hips down and core engaged",
+          "Repeat for 30-45 seconds"
+        ],
+        "targetReps": {
+          "beginner": "20 total",
+          "intermediate": "30-40 total",
+          "advanced": "50+ total"
+        }
+      },
+      {
+        "id": "bicycle-crunches",
+        "name": "Bicycle Crunches",
+        "description": "Lie on your back and alternate bringing elbow to opposite knee.",
+        "difficulty": "beginner",
+        "durationSeconds": 45,
+        "muscleGroups": ["abs", "obliques", "core"],
+        "equipment": [],
+        "instructions": [
+          "Lie on your back with hands behind your head",
+          "Lift your shoulders off the ground and bring knees to a tabletop position",
+          "Extend one leg while rotating your torso to bring the opposite elbow toward the bent knee",
+          "Switch sides in a fluid motion, like pedaling a bicycle",
+          "Continue alternating for 30-45 seconds"
+        ],
+        "targetReps": {
+          "beginner": "10 per side",
+          "intermediate": "15-20 per side",
+          "advanced": "25+ per side"
+        }
+      },
+      {
+        "id": "glute-bridges",
+        "name": "Glute Bridges",
+        "description": "Lie on your back and lift your hips toward the ceiling.",
+        "difficulty": "beginner",
+        "durationSeconds": 45,
+        "muscleGroups": ["glutes", "hamstrings", "lower_back"],
+        "equipment": [],
+        "instructions": [
+          "Lie on your back with knees bent and feet flat on the floor",
+          "Place arms at your sides with palms down",
+          "Push through your heels to lift your hips toward the ceiling",
+          "Squeeze your glutes at the top",
+          "Lower back down with control",
+          "Repeat for 30-45 seconds"
+        ],
+        "targetReps": {
+          "beginner": "10-12",
+          "intermediate": "15-20",
+          "advanced": "25+"
+        }
+      },
+      {
+        "id": "tricep-dips-chair",
+        "name": "Chair Tricep Dips",
+        "description": "Using a chair or desk, lower your body to work your triceps.",
+        "difficulty": "beginner",
+        "durationSeconds": 45,
+        "muscleGroups": ["triceps", "shoulders", "chest"],
+        "equipment": ["chair"],
+        "instructions": [
+          "Sit on the edge of a sturdy chair or desk",
+          "Place your hands on the edge of the surface, fingers pointing forward",
+          "Slide your butt off the edge with legs extended",
+          "Lower your body by bending your elbows",
+          "Push back up until arms are straight",
+          "Repeat for 30-45 seconds"
+        ],
+        "targetReps": {
+          "beginner": "8-10",
+          "intermediate": "12-15",
+          "advanced": "20+"
+        }
+      },
+      {
+        "id": "wall-sit",
+        "name": "Wall Sit",
+        "description": "Press your back against a wall and hold a seated position.",
+        "difficulty": "beginner",
+        "durationSeconds": 45,
+        "muscleGroups": ["quads", "glutes", "core"],
+        "equipment": [],
+        "instructions": [
+          "Stand with your back against a wall",
+          "Walk your feet out and slide down until your thighs are parallel to the floor",
+          "Knees should be directly above ankles",
+          "Keep your back flat against the wall",
+          "Hold the position for 30-60 seconds",
+          "Breathe normally throughout"
+        ],
+        "targetDuration": {
+          "beginner": "30 seconds",
+          "intermediate": "45-60 seconds",
+          "advanced": "90+ seconds"
+        }
+      },
+      {
+        "id": "dumbbell-curl",
+        "name": "Dumbbell Bicep Curl",
+        "description": "Curl dumbbells upward while keeping elbows close to torso.",
+        "difficulty": "beginner",
+        "durationSeconds": 45,
+        "muscleGroups": ["biceps", "forearms"],
+        "equipment": ["dumbbells"],
+        "instructions": [
+          "Stand with feet shoulder-width apart holding dumbbells at your sides",
+          "Keep your elbows close to your torso",
+          "Curl the weights upward while keeping your upper arms stationary",
+          "Continue curling until the dumbbells are at shoulder level",
+          "Slowly lower the weights back to the starting position",
+          "Repeat for 30-45 seconds"
+        ],
+        "targetReps": {
+          "beginner": "8-10",
+          "intermediate": "12-15",
+          "advanced": "15-20"
+        }
+      },
+      {
+        "id": "kettlebell-swing",
+        "name": "Kettlebell Swing",
+        "description": "Swing a kettlebell between your legs and up to chest height.",
+        "difficulty": "intermediate",
+        "durationSeconds": 45,
+        "muscleGroups": ["glutes", "hamstrings", "core", "shoulders"],
+        "equipment": ["kettlebell"],
+        "instructions": [
+          "Stand with feet slightly wider than shoulder-width apart",
+          "Hold kettlebell with both hands in front of you",
+          "Hinge at the hips and swing the kettlebell between your legs",
+          "Thrust your hips forward to swing the kettlebell up to chest height",
+          "Let the kettlebell naturally fall back down",
+          "Repeat for 30-45 seconds"
+        ],
+        "targetReps": {
+          "beginner": "10-12",
+          "intermediate": "15-20",
+          "advanced": "25+"
+        }
+      }
+    ],
+    
+    "equipment": [
+      {"id": "dumbbells", "name": "Dumbbells"},
+      {"id": "kettlebell", "name": "Kettlebell"},
+      {"id": "resistance_bands", "name": "Resistance Bands"},
+      {"id": "exercise_ball", "name": "Exercise Ball"},
+      {"id": "yoga_mat", "name": "Yoga Mat"},
+      {"id": "pull_up_bar", "name": "Pull-Up Bar"},
+      {"id": "chair", "name": "Chair or Desk"}
+    ],
+    
+    "muscleGroups": [
+      {"id": "chest", "name": "Chest"},
+      {"id": "back", "name": "Back"},
+      {"id": "shoulders", "name": "Shoulders"},
+      {"id": "biceps", "name": "Biceps"},
+      {"id": "triceps", "name": "Triceps"},
+      {"id": "forearms", "name": "Forearms"},
+      {"id": "quads", "name": "Quadriceps"},
+      {"id": "hamstrings", "name": "Hamstrings"},
+      {"id": "calves", "name": "Calves"},
+      {"id": "glutes", "name": "Glutes"},
+      {"id": "abs", "name": "Abdominals"},
+      {"id": "obliques", "name": "Obliques"},
+      {"id": "core", "name": "Core"},
+      {"id": "lower_back", "name": "Lower Back"},
+      {"id": "full_body", "name": "Full Body"},
+      {"id": "cardio", "name": "Cardio"}
+    ]
+  }

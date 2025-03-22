@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkBreak API</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .endpoint {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 0 4px 4px 0;
+        }
+        .endpoint h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        .try-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .try-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>WorkBreak Exercise API</h1>
+    
+    <p>This API provides exercise recommendations every 45 minutes to encourage regular movement throughout your day. Perfect for integration with LaMetric Time, TRMNL, and other smart devices.</p>
+    
+    <h2>API Endpoints</h2>
+    
+    <div class="endpoint">
+        <h3>Get Random Exercise</h3>
+        <p>Returns a random exercise based on the current time and optional filters.</p>
+        <p><strong>URL:</strong> <code>/api/getExercise</code></p>
+        <p><strong>Method:</strong> <code>GET</code></p>
+        <p><strong>Parameters:</strong></p>
+        <ul>
+            <li>Install the app on your LaMetric Time device</li>
+    </ol>
+    
+    <h3>TRMNL</h3>
+    <p>To connect this API to your TRMNL device:</p>
+    <ol>
+        <li>Set up a "Custom URL" source in your TRMNL device</li>
+        <li>Enter the following URL: <code>https://your-netlify-app.netlify.app/api/getExercise?format=trmnl</code></li>
+        <li>Configure the refresh interval to 5 minutes</li>
+    </ol>
+    
+    <h2>Next Steps</h2>
+    <p>This is a minimal version of the WorkBreak API. More features coming soon:</p>
+    <ul>
+        <li>User preferences storage</li>
+        <li>Weekly workout scheduling</li>
+        <li>Exercise history and tracking</li>
+        <li>User interface for easier configuration</li>
+    </ul>
+    
+    <footer style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; font-size: 14px; color: #777;">
+        <p>WorkBreak API - Get moving, stay healthy.</p>
+    </footer>
+
+    <script>
+        // Simple script to update the examples with the actual domain
+        document.addEventListener('DOMContentLoaded', function() {
+            const domain = window.location.origin;
+            const links = document.querySelectorAll('.try-btn');
+            
+            links.forEach(link => {
+                if (link.href.includes('your-netlify-app.netlify.app')) {
+                    link.href = link.href.replace('your-netlify-app.netlify.app', domain);
+                }
+            });
+            
+            const codeElements = document.querySelectorAll('code');
+            codeElements.forEach(element => {
+                if (element.textContent.includes('your-netlify-app.netlify.app')) {
+                    element.textContent = element.textContent.replace('your-netlify-app.netlify.app', domain);
+                }
+            });
+        });
+    </script>
+</body>
+</html>><code>format</code> - Optional. Response format: "json" (default), "lametric", or "trmnl"</li>
+            <li><code>muscleGroups</code> - Optional. Comma-separated list of muscle groups to target</li>
+            <li><code>equipment</code> - Optional. Comma-separated list of available equipment</li>
+            <li><code>force</code> - Optional. Set to "true" to force an exercise regardless of time</li>
+        </ul>
+        <a href="/api/getExercise?force=true" class="try-btn" target="_blank">Try it (JSON)</a>
+        <a href="/api/getExercise?force=true&format=lametric" class="try-btn" target="_blank">Try it (LaMetric)</a>
+        <a href="/api/getExercise?force=true&format=trmnl" class="try-btn" target="_blank">Try it (TRMNL)</a>
+    </div>
+    
+    <div class="endpoint">
+        <h3>Get Exercise by ID</h3>
+        <p>Returns a specific exercise by its ID.</p>
+        <p><strong>URL:</strong> <code>/api/getExerciseById</code></p>
+        <p><strong>Method:</strong> <code>GET</code></p>
+        <p><strong>Parameters:</strong></p>
+        <ul>
+            <li><code>id</code> - Required. The ID of the exercise to retrieve</li>
+        </ul>
+        <a href="/api/getExerciseById?id=push-ups-standard" class="try-btn" target="_blank">Try it</a>
+    </div>
+    
+    <h2>Device Integration</h2>
+    
+    <h3>LaMetric Time</h3>
+    <p>To connect this API to your LaMetric Time device:</p>
+    <ol>
+        <li>Create a new indicator app in the LaMetric developer portal</li>
+        <li>Set the data source to "Poll URL" and enter: <code>https://your-netlify-app.netlify.app/api/getExercise?format=lametric</code></li>
+        <li>Configure the polling interval to 5 minutes</li>
+    </ol>
+</html>

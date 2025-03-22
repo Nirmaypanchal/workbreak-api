@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Build
+dist/
+.netlify/
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Netlify folder
+.netlify
